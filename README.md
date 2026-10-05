@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# 张继尧的个人主页
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+基于 Vue3 + Vite + Tailwind CSS v4 构建的个人简历网站。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🔗 在线访问：https://zjy-141.github.io/my-site/
+
+## 本地运行
+
+\`\`\`bash
+pnpm install
+pnpm dev
+\`\`\`
+
+## 修改内容
+
+所有文字、链接、项目都在 `src/data/config.ts` 中修改。
+
+## 部署
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
