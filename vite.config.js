@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'), // 新增：让 @ 指向 src
     },
   },
-  base: '/my-site/', // 部署时用，本地开发可以先注释掉
+  base: '/',
 })
