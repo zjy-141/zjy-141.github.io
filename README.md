@@ -2,7 +2,7 @@
 
 基于 Vue3 + Vite + Tailwind CSS v4 构建的个人简历网站。
 
-🔗 在线访问：https://zjy-141.github.io/my-site/
+🔗 在线访问：https://zjy-141.github.io/
 
 ## 本地运行
 
