@@ -20,7 +20,7 @@ skills: [
   { category: "编程语言与后端", items: ["Go", "Gin", "Gorm", "Python", "C"] },
   { category: "数据库与部署", items: ["MySQL", "Linux", "Git"] },
   { category: "大模型与机器学习", items: ["PyTorch", "Transformers", "PEFT"] },
-  { category: "前端框架", items: ["React", "Vue3"] }
+  { category: "前端框架", items: ["Vue3"] }
 ],
 
   // 项目
