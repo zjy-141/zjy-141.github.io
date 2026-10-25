@@ -19,7 +19,7 @@ social: {
 skills: [
   { category: "编程语言与后端", items: ["Go", "Gin", "Gorm", "Python", "C"] },
   { category: "数据库与部署", items: ["MySQL", "Linux", "Git"] },
-  { category: "大模型与机器学习", items: ["PyTorch", "Transformers", "PEFT"] },
+  { category: "大模型与机器学习", items: ["PyTorch", "Transformers", "PEFT", "Unsloth", "llama.cpp", "TensorBoard", "Ollama"] },
   { category: "前端框架", items: ["Vue3"] }
 ],
 
@@ -27,12 +27,20 @@ skills: [
   projects: [
   {
     name: "本地大语言模型全流程实践",
-    description: "从零预训练 · SFT 微调 · RAG · LoRA/QLoRA · GGUF 部署。在 RTX 5060 Laptop (8GB 显存) 上完成 MiniMind 预训练，loss 从 7.69 降至 1.49。",
+    description: "从零预训练 · SFT 指令微调 · LoRA/QLoRA · GGUF 转换 · Ollama 部署。在 RTX 5060 Laptop（8GB 显存，sm_120）单卡上独立打通全链路：MiniMind 预训练 127 万条，loss 由 7.69 降至 1.49；LCCC-base 中文 SFT 中定位学习率过低（1e-5 → 5e-5）并修正；用 Unsloth + QLoRA 微调 Qwen3-4B-Instruct-2507，自研清洗脚本保留率 98.48%，最终经 llama.cpp 转 GGUF 部署至 WSL Ollama。",
     links: [
       { label: "minimind_try", url: "https://github.com/zjy-141/minimind_try" },
       { label: "finetune_qwen", url: "https://github.com/zjy-141/finetune_qwen" }
     ],
-    skills: ["PyTorch", "Transformers", "PEFT", "Ollama"]
+    skills: ["PyTorch", "Transformers", "PEFT", "Unsloth", "llama.cpp", "Ollama"]
+  },
+  {
+    name: "CIFAR-10 多模型图像分类",
+    description: "PyTorch + TensorBoard：手写 Dataset、固定随机种子划分数据，封装统一训练引擎（ETA 估算、最优 Checkpoint、TensorBoard 记录）。从零实现 Softmax 回归 / MLP / LeNet / Small CNN / Modern CNN，准确率由 36.5% 提升至 87.9%；BatchNorm × Dropout 消融实验定位最优正则组合（82.6% → 87.9%），并结合 Macro-F1 与混淆矩阵分析卷积归纳偏置的作用。",
+    links: [
+      { label: "deep_learning_try", url: "https://github.com/zjy-141/deep_learning_try" }
+    ],
+    skills: ["PyTorch", "TensorBoard", "CNN"]
   },
   {
     name: "图寻｜后端开发与架构设计",
