@@ -43,6 +43,15 @@ skills: [
     skills: ["PyTorch", "TensorBoard", "CNN"]
   },
   {
+    name: "学术术语解释器（AI Agent 技能）",
+    description: "独立撰写的 Agent 技能规范（700 余行 SKILL.md）：把跨学科术语解释约束为六步流程——优先级评分提取术语、每个术语 ≥2 次联网交叉验证、20 学科靶向路由、六大模块决策树、递归澄清、Markdown/PDF 输出；并设计 PDF 四级降级链与公式复杂度分级。获 2026 第三届教育信息技术应用创新大赛全国总决赛二等奖（A 组，队长），配套 Vue3 产品介绍页支持技能包一键下载。",
+    links: [
+      { label: "explainer_skill", url: "https://github.com/zjy-141/explainer_skill" },
+      { label: "在线演示", url: "https://zjy-141.github.io/explainer_skill/" }
+    ],
+    skills: ["Agent Skill", "Prompt Engineering", "Vue3"]
+  },
+  {
     name: "图寻｜后端开发与架构设计",
     description: "独立负责全部后端开发与架构设计，采用 Controller-Service 分层架构。完成从需求分析到云服务器部署的全流程，已上线并投入校内使用。",
     links: [
@@ -66,10 +75,10 @@ skills: [
     {
       company: "数学建模竞赛",
       title: "队长",
-      dateRange: "2025",
+      dateRange: "2026.07 – 2026.09",
       bullets: [
         "主导赛题研判与方向决策，负责核心算法设计与代码框架搭建",
-        "获校级三等奖，正带队备战全国大学生数学建模竞赛"
+        "带队获 2026 年全国大学生数学建模竞赛陕西赛区一等奖（本科生组），校内选拔获校赛三等奖"
       ]
     }
   ],
@@ -83,7 +92,7 @@ skills: [
       achievements: [
         "核心课程：大学计算机-算法编程 98、高等代数与几何II-2 88、数学分析II-2 86",
         "CET-4 已通过，CET-6 备考中",
-        "全国大学生数学建模竞赛校赛三等奖（队长）"
+        "全国大学生数学建模竞赛陕西赛区一等奖（本科生组，队长）、校赛三等奖"
       ]
     }
   ]
