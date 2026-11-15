@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(), tailwindcss()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // 新增：让 @ 指向 src
+      '@': path.resolve(import.meta.dirname, './src'), // 新增：让 @ 指向 src
     },
   },
   base: '/',
